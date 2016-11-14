@@ -11,7 +11,7 @@ app.use((req, res, next) => {
 app.use(require('./task2a'));
 app.use(require('./task2b'));
 app.use(require('./task2c'));
-app.use(require('./task3a'));
+app.use('/task3A', require('./task3a'));
 
 app.get('/', (req, res) => {
   res.send('Hello skill-branch!');
