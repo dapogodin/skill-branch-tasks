@@ -16,6 +16,8 @@
     "bluebird": "^3.4.6",
     "express": "^4.14.0",
     "mongodb": "^2.2.11",
-    "mongoose": "^4.6.7"
+    "mongoose": "^4.6.7",
+    "node-fetch": "^1.6.3",
+    "isomorphic-fetch": "^2.2.1"
   }
 }
